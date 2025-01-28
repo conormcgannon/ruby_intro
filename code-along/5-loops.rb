@@ -29,9 +29,9 @@ loop do
         break
     end
 
-    tacos = tacos[index]
+    taco = tacos[index] #note we are calling for taco here, not tacoS. This helps us avoid the error we were having previously
 
-    puts "#{tacos} tacos!"
+    puts "#{taco} tacos!"
     index = index + 1
 end
 
