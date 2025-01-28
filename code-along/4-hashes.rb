@@ -28,7 +28,7 @@ puts my_profile
 
 complete_profile = {"name" => "Conor McGannon", # use "=>" to define a key valuable WITHIN a hash only
     "location" => {"city" => "Chicago", "state" => "Illinois"},
-    "timeline" => [{"status" => "Eating tacos", "posted" => "7:00AM"},
+    "timeline" => [{"status" => "Eating tacos", "posted" => "7:00AM"}],
                     "status" => "walking", "posted" => "7:30AM"}
 
 puts complete_profile ["timeline"] [0] [status]
